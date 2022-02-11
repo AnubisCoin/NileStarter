@@ -35579,3 +35579,18 @@ header, footer {
     background: rgba(255,255,255,.97);
     display: none;
 }
+
+.dropdown-toggle::after {
+    font-family: Custom;
+    border: 0;
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-right: -0.25rem;
+    vertical-align: -1px;
+    content: "\e900";
+    color: #42bdd7;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #42bdd7;
+}
